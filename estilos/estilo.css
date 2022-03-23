@@ -1,0 +1,54 @@
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+p{
+    font-size: 16px;
+    color: black;
+    background-color:cyan;        
+}
+
+h1{
+    color: crimson; 
+    font-family: sans-serif;
+}
+
+.parrafo-negrita{
+    font-weight: bold;
+    font-size: large;
+}
+
+#parrafo-id{
+    border: 5px solid rgb(192, 223, 17);
+    font-size: small;
+}
+
+/* grupo de de selectores */
+p,.parrafo-negrita,#parrafo.id{
+    border: 10px solid green;
+}
+
+span{
+    font-weight: 100;
+}
+
+
+/* selector para elementos subsiguientes */
+p+span{
+    color: rgb(2, 0, 0);
+    font-size: large;
+}
+
+/* selector para elementos que se encuentren en p sin tener en cuenta la jerarquia  */
+p span{
+    color: rgb(0, 25, 246);
+    
+}
+
+/* selector para elementos anidados en el primer nivel de jerarquia */
+p>span{
+    color: rgb(15, 54, 184);
+
+}

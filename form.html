@@ -1,0 +1,43 @@
+<form action="formulario" style="background-color: cadetblue;">
+    <br>
+    Nombre:
+    <input type="text" placeholder="Ingrese Nombre" name="nombre"><br><br>
+    Apellido:
+    <input type="text" placeholder="Ingrese Apellido" name="apellido"><br><br>
+    
+    Seleccione Genero : <br>
+    <input type="radio" name="genero" id="genero" value="1"> Masculino <br>
+    <input type="radio" name="genero" id="genero" value="2"> Femenino <br>
+    <input type="radio" name="genero" id="genero" value="3" checked> Otro <br>
+    <br>
+
+     seleccione una opcion: <br>
+    <input type="checkbox" name="opcion" id="opcion"> Mala atencion <br>
+    <input type="checkbox" name="opcion" id="opcion"> Horrible comida <br>
+    <input type="checkbox" name="opcion" id="opcion"> otras <br>
+    <br>    
+    <br>    
+
+    Seleccionar Local: <br>
+    <select name="local" id="local">
+        <option value="">Seleccione...</option>
+        <option value="1">Cordoba</option>
+        <option value="2">Rosario</option>
+    </select>
+    <br>
+    <br>
+    
+    Fecha: <br>
+    <input type="date" name="fecha" id="fecha" min="2015-01-01" >
+    <br>
+    <br>
+
+    Ingrese su problema: <br>
+    <textarea style="resize: none;" name="comentario" id="comentario" cols="30" rows="10" placeholder="Ingrese su problema..."> 
+    </textarea>
+    <br>
+    <br>
+    
+    <button type="submit">Enviar</button>
+        
+</form>
